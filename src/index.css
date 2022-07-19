@@ -26,8 +26,11 @@ h3 {
   margin-right: 0.5rem;
   text-shadow: 2px 2px rgb(1, 23, 1)
 }
-
+a {
+  color:rgb(0, 255, 0);
+}
 p {
+  text-align: justify;
   color: rgb(214, 229, 214);
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -40,6 +43,18 @@ p {
   float: left;
   max-width: 10rem;
   filter: drop-shadow(5px 5px 3px rgb(1, 23, 1))
+}
+
+#lightsPic{
+  float:left;
+  border-radius: 2rem;
+  margin: 1rem;
+  max-width: 20rem;
+  filter: drop-shadow(5px 5px 3px rgb(1, 23, 1))
+}
+
+.About {
+  margin: 2rem;
 }
 
 code {

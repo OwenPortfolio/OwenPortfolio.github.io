@@ -4,7 +4,7 @@ const About = ()=> {
     return (
         <>
         <div className='About'>
-            <img id='profilePic' src={profilePic} alt='portrait photo of a bald man with beard and glasses'></img>
+            <img className='pictures' id='profilePic' src={profilePic} alt='portrait photo of a bald man with beard and glasses'></img>
             <h3>Who am I?</h3>
             <p>Hi, my name is Owen and I am looking for my first junior software developer role.
                 In April 2022 I was accepted on to the Northcoders Skills Bootcamp as part of their excellence scholarship and began training as a full stack developer.
