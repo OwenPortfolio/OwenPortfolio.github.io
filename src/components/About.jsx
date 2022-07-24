@@ -14,11 +14,11 @@ const About = ()=> {
             <p>
                 I have been trained using industry standard practices for readable, clean code, as well as agile working practices. I really enjoy pair programming and 
                 working with others to sold problems and I'm particuarly proud of the final project my team and I put together, a mobile app that visualises data about bird
-                sightings across the UK. 
+                sightings across the UK.
             </p>
             <p>
                 I love to code, and I love to learn new things. When I'm not coding I enjoy language learning, reading French comics, and tinkering with old computers.
-                Click here to check out a project I've been working on with a friend to recreate a Sinclair ZX81 using all modern components!
+                Lately I've been working on a project with a friend to recreate a Sinclair ZX81 using all modern components, and should have some info on this soon. I really enjoy video games, though that isn't the area of tech I'd like to work in. I'm more interested in projects that will make the world a better place. 
             </p>
             <h2>Technical Skills:</h2>
             <p>Programming Languages: JavaScript, some TypeScript</p>
