@@ -3,9 +3,9 @@ import profilePic from '../images/profilePic.jpeg';
 const About = ()=> {
     return (
         <>
-        <div className='About'>
+        <div className='content' id='About'>
+            <h2>Who am I?</h2>
             <img className='pictures' id='profilePic' src={profilePic} alt='portrait photo of a bald man with beard and glasses'></img>
-            <h3>Who am I?</h3>
             <p>Hi, my name is Owen and I am looking for my first junior software developer role.
                 In April 2022 I was accepted on to the Northcoders Skills Bootcamp as part of their excellence scholarship and began training as a full stack developer.
                 As part of the bootcamp I worked primarily in Javascript, and worked with technologics liked PSQL, React, NodeJs, and other relevant professional tools.
@@ -20,7 +20,7 @@ const About = ()=> {
                 I love to code, and I love to learn new things. When I'm not coding I enjoy language learning, reading French comics, and tinkering with old computers.
                 Click here to check out a project I've been working on with a friend to recreate a Sinclair ZX81 using all modern components!
             </p>
-            <h3>Technical Skills:</h3>
+            <h2>Technical Skills:</h2>
             <p>Programming Languages: JavaScript, some TypeScript</p>
             <p>Libraries and other tech used on the Bootcamp: Git and Github, NodeJS, PSQL, Express, Jest, Supertest, Heroku, React, React Native, Firebase, Google Maps API and other public APIs</p>
             <p>Skills and Practices: Agile methods, included pair programming, sprints, stand-ups, and test driven development. A focus on functional programming, with 

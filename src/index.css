@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(49, 65, 44);
-  margin: 1rem;
+  font-size: large;
+  background-color: rgb(23, 33, 61);
   font-family: 'DIN Condensed','DIN Alternate','Silom','Segoe UI Black','Tahoma',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -8,56 +8,82 @@ body {
 
 .Navbar {
   display: flex;
+  font-size: larger;
   justify-content: center;
-  background-color: rgb(133, 192, 115);
-  border-radius: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  background-color: rgb(93, 105, 137);
+  border-radius: 0.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  filter: drop-shadow(2px 2px 3px rgb(0,0,0))
 }
 
-h1 {
-  color: rgb(231, 241, 231);
-  text-shadow: 2px 2px rgb(1, 23, 1)
-
-}
-h3 {
-  color: rgb(214, 229, 214);
+h1, h2, h3 {
+  color: white;
+  text-shadow: 2px 2px rgb(0, 0, 0);
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  text-shadow: 2px 2px rgb(1, 23, 1)
 }
+
+h3 {
+color: rgb(255, 255, 255);
+}
+h3:hover{
+  transform: scale(1.1);
+}
+
 a {
-  color:rgb(0, 255, 0);
+  color:rgb(0, 170, 255);
 }
+
 p {
   text-align: justify;
-  color: rgb(214, 229, 214);
+  color: white;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  text-shadow: 2px 2px rgb(1, 23, 1)
+  text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 #profilePic {
-  border-radius: 3rem;
+  border-radius: 1rem;
   margin: 1rem;
   float: left;
   max-width: 10rem;
-  filter: drop-shadow(5px 5px 3px rgb(1, 23, 1))
+  filter: drop-shadow(2px 2px 3px rgb(0,0,0))
 }
 
-#lightsPic{
+.samplePics{
   float:left;
-  border-radius: 2rem;
+  border-radius: 1rem;
   margin: 1rem;
-  max-width: 20rem;
-  filter: drop-shadow(5px 5px 3px rgb(1, 23, 1))
+  max-width: 10rem;
+  filter: drop-shadow(2px 2px 3px rgb(0,0,0))
 }
 
 .About {
   margin: 2rem;
 }
 
+.content {
+  margin: 2rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (min-width: 600px){
+  .Navbar {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .content {
+    margin: 2rem;
+  }
+
+
+.samplePics{
+  max-width: 15rem;
+}
 }
