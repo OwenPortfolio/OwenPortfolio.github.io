@@ -52,13 +52,12 @@ p {
 }
 
 .samplePics{
-  float:left;
+  float: left;
   border-radius: 1rem;
   margin: 1rem;
-  max-width: 10rem;
+  max-width: 8rem;
   filter: drop-shadow(2px 2px 3px rgb(0,0,0))
 }
-
 .About {
   margin: 2rem;
 }
@@ -85,5 +84,6 @@ code {
 
 .samplePics{
   max-width: 15rem;
+  max-height: 20rem;
 }
 }
