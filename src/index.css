@@ -38,8 +38,6 @@ a {
 p {
   text-align: justify;
   color: white;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
   text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
@@ -62,10 +60,6 @@ p {
   margin: 2rem;
 }
 
-.content {
-  margin: 2rem;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -76,11 +70,6 @@ code {
     margin-left: 10rem;
     margin-right: 10rem;
   }
-
-  .content {
-    margin: 2rem;
-  }
-
 
 .samplePics{
   max-width: 15rem;
