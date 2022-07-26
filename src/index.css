@@ -19,6 +19,7 @@ body {
 }
 
 #Footer {
+  justify-content: center;
   display:flex;
   margin-top: 1rem;
 }
