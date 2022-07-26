@@ -10,7 +10,6 @@ const Codewars = () => {
         getProfile()
             .then((res)=> {
                 setData(res.data)
-                console.log(res.data)
                 setLoading(false);
             })
     },[])
@@ -21,8 +20,8 @@ const Codewars = () => {
             <>
             <div className='footerCard'>
                 <h3><b>Check out my Codewars Stats:</b></h3>
-                <p id='codewarsText'>This uses axios, useEffect, and useState to call the Codewars api and then render the data so it should be pretty up to date. </p>
-                <h3>Username: <a href='https://github.com/ajknowlden1/birds-i-view'>{data.username}</a> </h3>
+                <p id='codewarsText'>This uses an api call for up to date data.</p>
+                <h3>Username: <a href='https://www.codewars.com/users/OwenInTraining'>{data.username}</a> </h3>
                 <h3>Leaderboard Rank: <b>{data.leaderboardPosition}</b></h3>
                 <h3>Honor: <b>{data.honor}</b></h3>
                 <h3>Katas Completed:<b> {data.codeChallenges.totalCompleted}</b></h3>

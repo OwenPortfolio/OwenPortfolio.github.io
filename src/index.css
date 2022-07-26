@@ -11,7 +11,7 @@ body {
   display: flex;
   font-size: larger;
   justify-content: center;
-  background-color: rgba(97, 115, 167, 0.6);
+  background-color:rgba(116, 151, 255, 0.3);
   border-radius: 0.5rem;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -19,6 +19,7 @@ body {
 }
 
 #Footer {
+  display:flex;
   margin-top: 1rem;
 }
 
@@ -80,12 +81,12 @@ code {
 }
 
 .footerCard{
-  padding-top: 1rem;
   border-radius: 0.5rem;
-  background-color: rgba(97, 115, 167, 0.6);
+  background-color: rgba(116, 151, 255, 0.3);
   filter: drop-shadow(2px 2px 3px rgb(0,0,0));
   line-height: 14px;
-  padding: 0.5rem;
+  margin: 0.3rem;
+  padding:0.2rem;
   max-width: auto;
   text-align: left;
   display: block;
