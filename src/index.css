@@ -4,17 +4,23 @@ body {
   font-family: 'DIN Condensed','DIN Alternate','Silom','Segoe UI Black','Tahoma',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-bottom:1rem;
 }
+
 
 .Navbar {
   display: flex;
   font-size: larger;
   justify-content: center;
-  background-color: rgb(93, 105, 137);
+  background-color: rgba(97, 115, 167, 0.6);
   border-radius: 0.5rem;
   margin-left: 3rem;
   margin-right: 3rem;
   filter: drop-shadow(2px 2px 3px rgb(0,0,0))
+}
+
+#Footer {
+  margin-top: 1rem;
 }
 
 h1, h2, h3 {
@@ -27,32 +33,41 @@ h1, h2, h3 {
 h3 {
 color: rgb(255, 255, 255);
 }
-h3:hover{
-  transform: scale(1.1);
+
+b {
+  color:rgba(0, 255, 247, 0.847)
+}
+
+.NavbarLinks:hover{
+  transform: scale(1.05);
 }
 
 a {
   color:rgb(0, 170, 255);
+  position:relative;
 }
 
 p {
   text-align: justify;
   color: white;
   text-shadow: 2px 2px rgb(0, 0, 0);
+  margin-left: 2rem;
 }
 
 #profilePic {
   border-radius: 1rem;
-  margin: 1rem;
+  margin-right: 2.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
   float: left;
-  max-width: 10rem;
+  max-width: 11rem;
   filter: drop-shadow(2px 2px 3px rgb(0,0,0))
 }
 
 .samplePics{
   float: left;
   border-radius: 1rem;
-  margin: 1rem;
+  margin-right: 1rem;
   max-width: 8rem;
   filter: drop-shadow(2px 2px 3px rgb(0,0,0))
 }
@@ -65,14 +80,34 @@ code {
     monospace;
 }
 
+.footerCard{
+  padding-top: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(97, 115, 167, 0.6);
+  filter: drop-shadow(2px 2px 3px rgb(0,0,0));
+  line-height: 14px;
+  padding: 0.5rem;
+  max-width: auto;
+  text-align: left;
+  display: block;
+}
+
+#codewarsText{
+  margin-left: 0.5rem;
+}
+
 @media (min-width: 600px){
   .Navbar {
     margin-left: 10rem;
     margin-right: 10rem;
   }
 
+  .sampleText {
+    display: block;
+    margin-left: 23rem;
+  }
 .samplePics{
-  max-width: 15rem;
+  max-width: 21rem;
   max-height: 20rem;
 }
 }

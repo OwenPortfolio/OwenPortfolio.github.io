@@ -16,7 +16,6 @@ const Body = (props)=> {
     if(props.page === 'Hire'){
         return <Hire/>
     }
-
 }
 
 export default Body;
