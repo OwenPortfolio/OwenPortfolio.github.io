@@ -20,7 +20,7 @@ const Codewars = () => {
             <>
             <div className='footerCard'>
                 <h3><b>Check out my Codewars Stats:</b></h3>
-                <p id='codewarsText'>This uses an api call for up to date data.</p>
+                <h3>Data via API...</h3>
                 <h3>Username: <a href='https://www.codewars.com/users/OwenInTraining'>{data.username}</a> </h3>
                 <h3>Leaderboard Rank: <b>{data.leaderboardPosition}</b></h3>
                 <h3>Honor: <b>{data.honor}</b></h3>
@@ -28,6 +28,12 @@ const Codewars = () => {
                 <h3>Javascript: <b>{data.ranks.languages.javascript.name}</b> </h3>
                 <h3>Python: <b>{data.ranks.languages.python.name}</b> </h3>
             </div>
+            </>
+        )
+    } else {
+        return (
+            <>
+            <h1>Loading...</h1>
             </>
         )
     }

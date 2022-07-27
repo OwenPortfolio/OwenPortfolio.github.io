@@ -15,7 +15,7 @@ function App() {
       backgroundImage: `url(${background})`,
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'bottom',
-      backgroundSize: 'cover',
+      backgroundSize:'auto',
     }}>
       <div>
           <Header/>

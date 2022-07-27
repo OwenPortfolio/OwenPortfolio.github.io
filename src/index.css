@@ -1,11 +1,10 @@
 body {
-  font-size: medium;
-  background-color: rgb(23, 33, 61);
+  font-size: large;
+  background-color: rgb(19, 33, 68);
   font-family: 'DIN Condensed','DIN Alternate','Silom','Segoe UI Black','Tahoma',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 .Navbar {
   display: flex;
@@ -17,6 +16,9 @@ body {
   margin-right: 3rem;
   filter: drop-shadow(2px 2px 3px rgb(0,0,0))
 }
+.NavbarLinks {
+  text-shadow: 3px 3px rgb(0, 0, 0);
+}
 
 #Footer {
   justify-content: center;
@@ -26,9 +28,12 @@ body {
 
 h1, h2, h3 {
   color: white;
-  text-shadow: 2px 2px rgb(0, 0, 0);
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+}
+
+h1, h2{
+  text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 h3 {
@@ -45,20 +50,22 @@ b {
 
 a {
   color:rgb(0, 170, 255);
+  text-shadow: none;
   position:relative;
 }
 
 p {
+  font-size: medium;
   text-align: justify;
+  text-shadow: 3px 3px rgb(0, 0, 0);
   color: white;
-  text-shadow: 2px 2px rgb(0, 0, 0);
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
 #profilePic {
   border-radius: 1rem;
-  margin-right: 2.5rem;
+  margin-right: 1rem;
   margin-bottom: 0.5rem;
   margin-left: 1rem;
   float: left;
@@ -86,11 +93,10 @@ code {
   font-size: small;
   border-radius: 0.5rem;
   background-color: rgba(116, 151, 255, 0.3);
-  filter: drop-shadow(2px 2px 3px rgb(0,0,0));
   line-height: 14px;
   margin: 0.3rem;
   padding:0.2rem;
-  max-width: auto;
+  max-width: 14rem;
   text-align: left;
   display: block;
 }
@@ -110,10 +116,6 @@ code {
   }
   #Footer {
     display:flex;
-  }
-  .footerCard{
-    font-size: large;
-    max-width: auto;
   }
   .sampleText {
     display: block;
