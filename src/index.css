@@ -5,7 +5,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.Header {
+  line-height: 20px;
+}
 .Navbar {
   display: flex;
   font-size: larger;
@@ -23,7 +25,9 @@ body {
 #Footer {
   justify-content: center;
   display: flex;
+  flex-direction: column;
   margin-top: 1rem;
+  margin: 1rem;
 }
 
 h1, h2, h3 {
@@ -55,7 +59,7 @@ a {
 }
 
 p {
-  font-size: medium;
+  font-size: large;
   text-align: justify;
   text-shadow: 3px 3px rgb(0, 0, 0);
   color: white;
@@ -90,21 +94,23 @@ code {
 }
 
 .footerCard{
-  font-size: small;
+  font-size: medium;
   border-radius: 0.5rem;
   background-color: rgba(116, 151, 255, 0.3);
-  line-height: 14px;
+  line-height: 16px;
   margin: 0.3rem;
   padding:0.2rem;
-  max-width: 14rem;
+  max-width: auto;
   text-align: left;
   display: block;
 }
 
-#codewarsText{
-  margin-left: 0.5rem;
+#toffeePic{
+  max-width: 12rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  filter: drop-shadow(2px 2px 3px rgb(0,0,0))
 }
-
 @media (min-width: 600px){
   .Navbar {
     margin-left: 10rem;
@@ -115,7 +121,7 @@ code {
     font-size: large;
   }
   #Footer {
-    display:flex;
+    flex-direction: row;
   }
   .sampleText {
     display: block;

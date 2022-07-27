@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import getProfile from "../api/getProfile";
+import { useEffect, useState } from 'react';
+import getProfile from '../api/getProfile';
 
 const Codewars = () => {
 
