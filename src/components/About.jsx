@@ -17,7 +17,7 @@ const About = ()=> {
                 sightings across the UK.
             </p>
             <p>
-                In my spare time, my hobby is learning new skils. When I'm not coding I enjoy language learning, reading French comics, and tinkering with old computers.
+                In my spare time, my hobby is learning new skills. When I'm not coding I enjoy language learning, reading French comics, and tinkering with old computers.
                 Lately I've been working on a project with a friend to recreate a Sinclair ZX81 using all modern components, and should have some info on this soon. I really enjoy video games, though that isn't the area of tech I'd like to work in. I'm more interested in projects that will solve the impending societal problems we face, such as climate change or mental health care. 
             </p>
             <h2><b>Technical Skills:</b></h2>

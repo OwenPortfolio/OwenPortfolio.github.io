@@ -6,7 +6,6 @@ const getRecentCommit = () => {
             return res
         })
         .catch((err) => {
-            console.log(err)
         })
 }
 
