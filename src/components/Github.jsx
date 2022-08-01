@@ -16,7 +16,7 @@ const Github = () => {
             })
     },[data])
 
-    if(loading === false){
+    if(loading === false && data != undefined){
         return (
             <>
             <div className='footerCard'>
@@ -33,7 +33,10 @@ const Github = () => {
     }  else {
         return (
             <>
-            <h1>Loading...</h1>
+            <div className='footerCard'>
+                <h3><b>Loading Recent Github Commits</b></h3>
+                <h3>If this message persists, github api may be down currently. </h3>
+            </div>
             </>
         )
     }

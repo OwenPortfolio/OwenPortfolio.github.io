@@ -15,7 +15,7 @@ const Codewars = () => {
     },[])
 
 
-    if(loading === false){
+    if(loading === false && data != undefined){
         return (
             <>
             <div className='footerCard'>
@@ -32,9 +32,10 @@ const Codewars = () => {
         )
     } else {
         return (
-            <>
-            <h1>Loading...</h1>
-            </>
+            <div className='footerCard'>
+                <h3><b>Loading Recent Codewars Stats</b></h3>
+                <h3>If this message persists, codewars api may be down currently. </h3>
+            </div>
         )
     }
 
