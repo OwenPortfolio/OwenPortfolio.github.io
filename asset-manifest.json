@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec27e017.css",
-    "main.js": "/static/js/main.ee055032.js",
+    "main.css": "/static/css/main.55d338d1.css",
+    "main.js": "/static/js/main.408c5dce.js",
     "static/js/787.37faa4c4.chunk.js": "/static/js/787.37faa4c4.chunk.js",
     "static/media/backgroundimage.png": "/static/media/backgroundimage.c5d393a8aa923e771988.png",
     "static/media/Toffee.png": "/static/media/Toffee.2d3a10374de0dcbf1e66.png",
@@ -10,13 +10,14 @@
     "static/media/profilePic.jpeg": "/static/media/profilePic.cfa6acf9d52b71232f21.jpeg",
     "static/media/tabloidFilter.png": "/static/media/tabloidFilter.32ad0456c489df95cc14.png",
     "static/media/ncNews.png": "/static/media/ncNews.2fed7baa7818a2fc6f8a.png",
+    "static/media/calculator.png": "/static/media/calculator.d2470b9157f05f85a50e.png",
     "index.html": "/index.html",
-    "main.ec27e017.css.map": "/static/css/main.ec27e017.css.map",
-    "main.ee055032.js.map": "/static/js/main.ee055032.js.map",
+    "main.55d338d1.css.map": "/static/css/main.55d338d1.css.map",
+    "main.408c5dce.js.map": "/static/js/main.408c5dce.js.map",
     "787.37faa4c4.chunk.js.map": "/static/js/787.37faa4c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec27e017.css",
-    "static/js/main.ee055032.js"
+    "static/css/main.55d338d1.css",
+    "static/js/main.408c5dce.js"
   ]
 }
