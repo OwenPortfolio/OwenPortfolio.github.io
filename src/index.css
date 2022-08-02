@@ -1,7 +1,7 @@
 body {
   font-size: large;
   background-color: rgb(19, 33, 68);
-  font-family: 'DIN Condensed','DIN Alternate','Silom','Segoe UI Black','Tahoma',sans-serif;
+  font-family: 'DIN Condensed','Arial Narrow','Avenir','Trebuchet MS',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
