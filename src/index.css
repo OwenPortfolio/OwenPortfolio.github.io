@@ -105,6 +105,10 @@ code {
   display: block;
 }
 
+.footerCard:hover{
+  transform: scale(1.02);
+}
+
 #toffeePic{
   max-width: 12rem;
   padding: 0.5rem;
