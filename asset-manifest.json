@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1001d69f.css",
+    "main.css": "/static/css/main.d80a68c5.css",
     "main.js": "/static/js/main.ee055032.js",
     "static/js/787.37faa4c4.chunk.js": "/static/js/787.37faa4c4.chunk.js",
     "static/media/backgroundimage.png": "/static/media/backgroundimage.c5d393a8aa923e771988.png",
@@ -11,12 +11,12 @@
     "static/media/tabloidFilter.png": "/static/media/tabloidFilter.32ad0456c489df95cc14.png",
     "static/media/ncNews.png": "/static/media/ncNews.2fed7baa7818a2fc6f8a.png",
     "index.html": "/index.html",
-    "main.1001d69f.css.map": "/static/css/main.1001d69f.css.map",
+    "main.d80a68c5.css.map": "/static/css/main.d80a68c5.css.map",
     "main.ee055032.js.map": "/static/js/main.ee055032.js.map",
     "787.37faa4c4.chunk.js.map": "/static/js/787.37faa4c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1001d69f.css",
+    "static/css/main.d80a68c5.css",
     "static/js/main.ee055032.js"
   ]
 }
